@@ -48,4 +48,4 @@ A simple CSV and add-in to store and manage resources used by RJC's Excel and Ac
    End Sub
    ```
 
- 4. Call `SetResourcePaths` in Workbook_Open event
+ 4. Call `SetResourcePaths` in `Workbook_Open` event
