@@ -32,7 +32,7 @@ A simple CSV and add-in to store and manage resources used by RJC's Excel and Ac
    
 2. Set Public variable(s) for the resource paths in your `Resource` module. For example:
    ```VBA
-   Public BackendPath As String
+   Public CodeFile As String
    ```
 
 3. Add a sub to the `Resource` module to set the resources
