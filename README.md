@@ -11,6 +11,7 @@ A simple CSV and add-in to store and manage resources used by RJC's Excel and Ac
    ```VBA
    Function GetResourcePath(toolID As String, version As String, resourceType As String)
       Application.DisplayAlerts = False
+      On Error GoTo Err
       
       Dim resourceCodePath As String
       Dim func As String
